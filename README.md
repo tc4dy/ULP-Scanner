@@ -1,3 +1,5 @@
+![ULP-Scanner Logo](ulpsc.png)
+
 # 🔍 ULP-Scanner (Filter, Parser)
 
 **Enterprise-Grade ULP (URL:Login:Password) Parser with Advanced Filtering, Memory Management, and Interactive Controls**
