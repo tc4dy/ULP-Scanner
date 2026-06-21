@@ -1,0 +1,7 @@
+# ULP-Scanner has no required external dependencies.
+# Everything runs on the Python standard library (3.8+).
+#
+# psutil is optional - enables real-time memory/system stats
+# in the interactive "View Statistics" menu and progress display.
+# Without it, the tool runs fine; memory metrics just show as 0.
+psutil>=5.9.0
