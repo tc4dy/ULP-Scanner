@@ -13,23 +13,23 @@
 
 ## 📖 Table of Contents
 
-- [🚨 Legal & Ethical Notice](#-legal--ethical-notice) — **Read this first**
-- [📌 Overview](#-overview)
-- [✨ Core Features](#-core-features)
-- [🏗️ Architecture](#️-architecture)
-- [💻 Usage Modes](#-usage-modes)
-- [📋 Parameter Reference](#-parameter-reference)
-- [📊 Performance Benchmarks](#-performance-benchmarks)
-- [🔍 Filtering Examples](#-filtering-examples)
-- [⚙️ Advanced Configuration](#️-advanced-configuration)
-- [🔒 Security Architecture](#-security-architecture)
-- [🛠️ Troubleshooting](#️-troubleshooting)
-- [📁 Output & Files](#-output--files)
-- [💡 Tips & Tricks](#-tips--tricks)
-- [🎯 Use Cases](#-use-cases)
-- [📊 Technical Details](#-technical-details)
-- [📜 License & Attribution](#-license--attribution)
-- [Installation](#-installation)
+- [[1] Legal & Ethical Notice](#-legal--ethical-notice) — **Read this first**
+- [[2] Overview](#-overview)
+- [[3] Core Features](#-core-features)
+- [[4] Architecture](#️-architecture)
+- [[5] Usage Modes](#-usage-modes)
+- [[6] Parameter Reference](#-parameter-reference)
+- [[7] Performance Benchmarks](#-performance-benchmarks)
+- [[8] Filtering Examples](#-filtering-examples)
+- [[9] Advanced Configuration](#️-advanced-configuration)
+- [[10] Security Architecture](#-security-architecture)
+- [[11] Troubleshooting](#️-troubleshooting)
+- [[12] Output & Files](#-output--files)
+- [[13] Tips & Tricks](#-tips--tricks)
+- [[14] Use Cases](#-use-cases)
+- [[15] Technical Details](#-technical-details)
+- [[16] License & Attribution](#-license--attribution)
+- [[17] Installation](#-installation)
 
 ---
 
