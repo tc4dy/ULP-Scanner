@@ -4,7 +4,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status: Production](https://img.shields.io/badge/Status-Production-brightgreen.svg)](https://github.com/tc4dy/ULP-Scanner)
+[![Release](https://img.shields.io/badge/release-vAlien-brightgreen.svg)](https://github.com/tc4dy/ULP-Scanner/releases/tag/vAlien)
+[![Platform](https://img.shields.io/badge/platform-All%20Platforms-blue.svg)](https://github.com/tc4dy/ULP-Scanner)
 
 ---
 
