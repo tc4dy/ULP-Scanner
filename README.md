@@ -1,6 +1,6 @@
 ![ULP-Scanner Logo](ulpsc.png)
 
-# 🔍 ULP-Scanner (Filter, Parser)
+# ULP-Scanner (Filter, Parser)
 
 **Enterprise-Grade ULP (URL:Login:Password) Parser with Advanced Filtering, Memory Management, and Interactive Controls**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [[1] Legal & Ethical Notice](#-legal--ethical-notice) — **Read this first**
 - [[2] Overview](#-overview)
@@ -33,23 +33,23 @@
 
 ---
 
-## 🚨 Legal & Ethical Notice
+## Legal & Ethical Notice
 
-**⚠️ IMPORTANT: Read before using this tool**
+**IMPORTANT: Read before using this tool**
 
 This tool is designed for and may **ONLY** be used on:
-- ✓ Data you own
-- ✓ Systems you have explicit written permission to analyze
-- ✓ Educational environments (sandboxed, non-production)
-- ✓ Authorized security testing/penetration tests
-- ✓ Legitimate incident response within your organization
+- [+] Data you own
+- [+] Systems you have explicit written permission to analyze
+- [+] Educational environments (sandboxed, non-production)
+- [+] Authorized security testing/penetration tests
+- [+] Legitimate incident response within your organization
 
 ### Prohibited Uses:
-- ✗ Analyzing data without authorization
-- ✗ Processing others' private information
-- ✗ Accessing or analyzing systems without consent
-- ✗ Any activity violating computer crime laws
-- ✗ Data trafficking or sale
+- [!] Analyzing data without authorization
+- [!] Processing others' private information
+- [!] Accessing or analyzing systems without consent
+- [!] Any activity violating computer crime laws
+- [!] Data trafficking or sale
 
 ### Compliance Requirements:
 You must comply with applicable regulations in your jurisdiction:
@@ -70,7 +70,7 @@ You must comply with applicable regulations in your jurisdiction:
 
 ---
 
-## 📌 Overview
+## Overview
 
 ULP-Scanner is a production-ready command-line tool designed for parsing, filtering, and analyzing ULP-formatted credential files. Built with security-first architecture, it handles everything from small datasets to multi-gigabyte files without breaking a sweat. The dual-mode interface (CLI + Interactive) makes it work for both automation scripts and manual exploration.
 
@@ -78,7 +78,7 @@ Think of it as grep on steroids, but specifically engineered for credential anal
 
 ---
 
-## ✨ Core Features
+## [<\>] Core Features
 
 | Feature | What It Actually Does |
 |---------|----------------------|
@@ -95,7 +95,7 @@ Think of it as grep on steroids, but specifically engineered for credential anal
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The tool is built around several interconnected components:
 
@@ -138,7 +138,7 @@ FileHandler.write_safe() [Atomic write with backup]
 
 ---
 
-## 💻 Usage Modes
+## [>] Usage Modes
 
 ### Mode 1: Interactive (Recommended for Exploration)
 ```bash
@@ -188,7 +188,7 @@ python scanner.py -f data.ulp -m 1 -p "test" --buffer-size 65536
 
 ---
 
-## 📋 Parameter Reference
+## [<>] Parameter Reference
 
 | Parameter | Type | Default | What It Does |
 |-----------|------|---------|--------------|
@@ -217,11 +217,11 @@ Searches for your pattern anywhere within the URL field. Case-insensitive and re
 ```
 Pattern: "gmail"
 Input: https://mail.gmail.com:user@example.com:password123
-Match: ✓ YES (contains "gmail")
+Match: YES (contains "gmail")
 
 Pattern: "^https://.*facebook"
 Input: https://facebook.com:user:pass
-Match: ✓ YES (regex matches)
+Match: YES (regex matches)
 ```
 
 **Mode 2 (Domain Extension Filtering):**
@@ -230,16 +230,16 @@ Matches the domain extension at the end of the URL. Useful for finding all .gov 
 ```
 Pattern: ".com"
 Input: https://example.com:user:pass
-Match: ✓ YES (ends with ".com")
+Match: YES (ends with ".com")
 
 Pattern: ".edu"
 Input: https://university.edu:student:pass
-Match: ✓ YES (ends with ".edu")
+Match: YES (ends with ".edu")
 ```
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 Tested on modern hardware (SSD, 16GB RAM):
 
@@ -254,7 +254,7 @@ Tested on modern hardware (SSD, 16GB RAM):
 
 ---
 
-## 🔍 Filtering Examples
+## Filtering Examples
 
 ### Example 1: Find All Gmail Accounts
 ```bash
@@ -288,7 +288,7 @@ Output: Processes file with legacy Latin-1 encoding instead of UTF-8.
 
 ---
 
-## 📁 Output & Files
+## Output & Files
 
 ### Generated Files
 
@@ -316,7 +316,7 @@ ulp_parser_error_20240115_143022.log:
 
 ---
 
-## ⚙️ Advanced Configuration
+## [S] Advanced Configuration
 
 ### Tuning for Different Scenarios
 
@@ -353,7 +353,7 @@ done
 
 ---
 
-## 🔒 Security Architecture
+## Security Architecture
 
 The tool implements multiple layers of security:
 
@@ -381,7 +381,7 @@ The tool implements multiple layers of security:
 
 ---
 
-## 📈 Statistics & Metrics
+## Statistics & Metrics
 
 After processing, you get detailed metrics:
 
@@ -406,7 +406,7 @@ What each metric tells you:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Problem: "File too large (>10GB)"
 **Solution**: Tool has a 10GB safety limit. Split file and process in chunks.
@@ -458,7 +458,7 @@ print(bool(re.search(pattern, test, re.IGNORECASE)))
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Security Auditing
 Find all compromised accounts from a specific organization in a large breach dump.
@@ -487,7 +487,7 @@ python scanner.py -f leaked.ulp -m 1 -p "company_name" -v
 
 ---
 
-## 📊 Technical Details
+## Technical Details
 
 ### File Format Support
 - **Input Format**: ULP (URL:Login:Password) with colons as delimiters
@@ -511,7 +511,7 @@ python scanner.py -f leaked.ulp -m 1 -p "company_name" -v
 
 ---
 
-## 💡 Tips & Tricks
+## Tips & Tricks
 
 ### Get Results Count Without Output File
 ```bash
@@ -540,7 +540,7 @@ python scanner.py -f data.ulp -m 1 -p "test" -v 2>&1 | tee output.log
 
 ---
 
-## ⬇️ Installation
+## [>] Installation
 
 ### Quick Start
 ```bash
@@ -559,13 +559,3 @@ pip install psutil
 ```
 
 The tool works perfectly without psutil, but having it enables real-time system memory monitoring in the statistics display.
-
----
-
-## 📜 License & Attribution
-
-**MIT License** - Free to use, modify, and distribute for authorized purposes.
-
-**Created by**: [@tc4dy](https://github.com/tc4dy)
-
-**GitHub**: [https://github.com/tc4dy/ULP-Scanner](https://github.com/tc4dy/ULP-Scanner)
