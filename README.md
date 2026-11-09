@@ -2,7 +2,7 @@
 
 # ULP-Scanner (Filter, Parser)
 
-**Enterprise-Grade ULP (URL:Login:Password) Parser with Advanced Filtering, Memory Management, and Interactive Controls**
+**Educational ULP (URL:Login:Password) Parser with Advanced Filtering, Memory Management, and Interactive Controls**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,25 +11,7 @@
 
 ---
 
-## Table of Contents
-
-- [[1] Legal & Ethical Notice](#-legal--ethical-notice) — **Read this first**
-- [[2] Overview](#-overview)
-- [[3] Core Features](#-core-features)
-- [[4] Architecture](#️-architecture)
-- [[5] Usage Modes](#-usage-modes)
-- [[6] Parameter Reference](#-parameter-reference)
-- [[7] Performance Benchmarks](#-performance-benchmarks)
-- [[8] Filtering Examples](#-filtering-examples)
-- [[9] Advanced Configuration](#️-advanced-configuration)
-- [[10] Security Architecture](#-security-architecture)
-- [[11] Troubleshooting](#️-troubleshooting)
-- [[12] Output & Files](#-output--files)
-- [[13] Tips & Tricks](#-tips--tricks)
-- [[14] Use Cases](#-use-cases)
-- [[15] Technical Details](#-technical-details)
-- [[16] License & Attribution](#-license--attribution)
-- [[17] Installation](#-installation)
+- [[</>] Installation](#-installation)
 
 ---
 
